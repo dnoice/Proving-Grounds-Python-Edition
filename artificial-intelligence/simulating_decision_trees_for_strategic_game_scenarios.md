@@ -1,93 +1,131 @@
-# Simulating Decision Trees for Strategic Game Scenarios
-
-This challenge focuses on designing a simulation that builds and evaluates decision trees to analyze strategic game scenarios. Participants will create a framework to represent game states as tree nodes, evaluate outcomes using heuristic scoring, and visualize the decision-making process.
+# 🌱 Real-Time Crop Health Monitoring for Urban Farming
 
 ---
 
-## 📝 Problem Title
-
-**Simulating Decision Trees for Strategic Game Scenarios: A Strategic Decision-Making Challenge**
-
-*Instructions:*  
-Develop a Python-based simulation that constructs decision trees for strategic game scenarios. Your solution should model game states as nodes in a tree, evaluate potential outcomes using heuristics, and determine the optimal decision path. Additionally, include visualizations that help interpret the structure of the decision tree and highlight key decision points.
+## 📋 Overview
+Urban farming is gaining popularity, but maintaining optimal crop health in a city environment can be tricky. Factors like fluctuating temperatures, inconsistent sunlight, and varying soil moisture levels can impact plant growth. In this challenge, you'll develop a **data-driven monitoring system** that tracks key environmental variables and alerts farmers when conditions might stress the crops.
 
 ---
 
 ## 🌍 Scenario
+You’ve partnered with an urban farming collective in Southern California that maintains rooftop gardens. The collective needs a **real-time monitoring system** to track crop health indicators, helping farmers respond promptly to potential issues. Your task is to build a system that **collects data**, **analyzes trends**, and **notifies farmers** when conditions are likely to cause stress or poor growth.
 
-In many strategic games—from board games to real-time strategy video games—players must evaluate several possible moves before selecting the optimal action. This challenge simulates such scenarios by modeling the decision process using trees. Each node represents a game state after a decision, and branches capture the resulting possibilities. By assigning scores (or rewards) to these states using heuristic evaluations, the simulation helps identify the path that maximizes the chances of success or minimizes potential losses. Such techniques are fundamental in game theory, AI for games, and decision support systems.
+The goal? To make data-driven decisions without relying on fully autonomous AI. This project will use **data analytics and basic machine learning models** to interpret environmental changes.
 
 ---
 
-## 🔧 Problem Tasks
+## 📝 Problem Tasks
 
-1. **Game State Representation and Environment Setup**  
-   - **Task 1-a:** Define a simplified strategic game scenario (e.g., a turn-based board game or a decision-making puzzle).  
-   - **Task 1-b:** Design a representation for game states (e.g., using objects or nested data structures) and define the set of possible actions from each state.
+### ⚙️ Task 1: Setting Up Data Collection
+Build a system to collect environmental data and track crop health metrics.
 
-2. **Decision Tree Construction**  
-   - **Task 2-a:** Implement a function that generates a decision tree by recursively simulating available moves from the current game state up to a specified depth.  
-   - **Task 2-b:** Ensure that each node contains information about the game state, the action taken, and a placeholder for the evaluation score.
+**Sub-tasks:**
+- 🌡️ Set up simulated sensors to collect temperature, humidity, and soil moisture data.
+- 💡 Integrate light intensity readings to monitor sunlight exposure.
+- 📊 Store the data in a structured format (e.g., CSV or SQLite).
 
-3. **Heuristic Evaluation and Outcome Analysis**  
-   - **Task 3-a:** Develop a heuristic function that scores non-terminal game states based on strategic criteria (e.g., potential rewards, positional advantage, risk of loss).  
-   - **Task 3-b:** Propagate scores from terminal nodes back up the tree to evaluate the best sequence of moves.
+**Expected Outcome:**
+- A reliable data collection pipeline that continuously logs key metrics.
 
-4. **Optimal Decision Determination**  
-   - **Task 4-a:** Implement an algorithm that traverses the decision tree (or its pruned version) to select the optimal path, considering both maximizing rewards and minimizing risks.  
-   - **Task 4-b:** Compare the outcomes of different evaluation strategies (e.g., aggressive versus defensive heuristics).
+---
 
-5. **Visualization and Analysis**  
-   - **Task 5-a:** Create visualizations of the decision tree using libraries such as Graphviz, NetworkX, or Plotly, with annotations for node scores and chosen actions.  
-   - **Task 5-b:** Generate reports or graphs that illustrate how varying the depth of the tree or the heuristic parameters impacts the decision choices.
+### 🔬 Task 2: Data Analysis and Trend Detection
+Identify patterns and anomalies that could affect crop health.
 
-6. **Documentation and Reporting**  
-   - **Task 6-a:** Document your code and design decisions thoroughly, explaining the methodology for tree construction, heuristic scoring, and decision selection.  
-   - **Task 6-b:** Summarize your findings and discuss potential improvements or extensions (e.g., integrating pruning techniques or dynamic state evaluation).
+**Sub-tasks:**
+- 📈 Perform exploratory data analysis (EDA) to understand the range and variability of collected metrics.
+- 🔍 Implement a simple anomaly detection algorithm to flag unusual readings (e.g., sudden drops in moisture).
+- 📝 Generate summary statistics and visualizations of the data.
+
+**Expected Outcome:**
+- A script that identifies and highlights potential stress indicators based on collected data.
+
+---
+
+### 🔧 Task 3: Building a Notification System
+Alert the farmers when conditions deviate from optimal ranges.
+
+**Sub-tasks:**
+- 🚨 Set threshold values for temperature, moisture, and light based on optimal crop conditions.
+- 💬 Implement a notification system that triggers alerts (console messages or emails) when conditions go out of range.
+- 🔄 Allow customization of threshold values for different crops.
+
+**Expected Outcome:**
+- An alert system that informs farmers when environmental conditions become unfavorable.
+
+---
+
+### 🖊️ Task 4: Visualizing Real-Time Data
+Make it easy to see the current state of the crops and potential issues.
+
+**Sub-tasks:**
+- 📊 Use **Matplotlib** to create real-time plots of environmental data.
+- 🌱 Display trend lines to show how conditions change over time.
+- 🚥 Use colored indicators (e.g., green for optimal, red for problematic) to visualize crop health.
+
+**Expected Outcome:**
+- An interactive dashboard that displays real-time and historical data with clear visual cues.
 
 ---
 
 ## 📦 Deliverables
+- **💻 Code Implementation:**
+  - Python scripts for data collection, trend analysis, and notifications.
 
-- **💻 Code Implementation:**  
-  - A Python script or Jupyter Notebook containing the full simulation code with clear comments and detailed documentation.
-  
-- **📊 Analysis Report:**  
-  - A report summarizing the approach, including the design of game state representations, decision tree structure, heuristic evaluations, and comparisons between different strategies.
-  
-- **🖼️ Visualizations:**  
-  - Graphical representations of the decision tree structure with annotated node scores and decision paths.
-  - *(Optional)* An interactive dashboard that allows real-time adjustments of heuristic parameters and tree depth.
+- **📊 Analysis Report:**
+  - Documentation of data analysis methods, anomaly detection logic, and visualization techniques.
+
+- **🖼️ Visual Demonstration:**
+  - A video or demo showing the system detecting changes and alerting farmers.
 
 ---
 
-## 🎁 Bonus Section (Advanced Challenge)
+## 🎁 Bonus Section
+1. **🔄 Dynamic Threshold Adjustment**
+   - Automatically update thresholds based on historical data trends.
 
-1. **Pruning Techniques:**  
-   - Implement pruning methods (e.g., alpha-beta pruning) to reduce the size of the decision tree and improve computation efficiency.
-   
-2. **Dynamic Scenario Adaptation:**  
-   - Extend the simulation to handle dynamic game scenarios where the state space changes over time or includes stochastic elements.
-   
-3. **Multi-Agent Decision Trees:**  
-   - Incorporate multi-agent interactions where decisions from multiple players are simulated concurrently, and analyze the emergent strategies.
+2. **📱 Mobile Notification System**
+   - Integrate a simple SMS or app-based alert system.
 
-*Bonus Deliverables:*  
-- A comparative analysis between the basic decision tree simulation and the pruned or dynamic version.
-- An interactive tool or GUI that demonstrates how different strategies affect the decision outcomes in real time.
+3. **🧠 Machine Learning Enhancement**
+   - Use a lightweight regression model to predict crop stress based on collected data.
 
----(
+4. **🌐 Web-Based Dashboard**
+   - Create a Flask app to display real-time data from any device.
+
+5. **📊 Advanced Data Visualization**
+   - Include correlation plots between environmental variables to identify interconnected factors.
+
+---
+
+## 🏅 Bonus Section Deliverables
+- **🔄 Dynamic Threshold Demo:**
+  - Demonstrate adaptive alerting as conditions change.
+
+- **📱 Mobile App Prototype:**
+  - Real-time notifications displayed on a smartphone.
+
+- **🧠 ML-Driven Prediction Report:**
+  - Show how predictions improve alert accuracy.
+
+- **🌐 Web Dashboard Demo:**
+  - A web-based interface showing crop conditions in real time.
+
+- **📊 Correlation Analysis:**
+  - Plot showing relationships between variables (e.g., temperature and moisture).
+
+---
 
 ## 📚 Resources
 
-1. **[Decision Tree – Wikipedia](https://en.wikipedia.org/wiki/Decision_tree)**
+- **🔗 [Pandas for Data Handling](https://pandas.pydata.org/)**
 
-2. **[Graphviz: Graph Visualization Software](https://graphviz.org/)**
+- **🔗 [Matplotlib for Visualization](https://matplotlib.org/)**
 
-3. **[NetworkX Documentation](https://networkx.org/documentation/stable/index.html)**
+- **🔗 [Scikit-learn for Anomaly Detection](https://scikit-learn.org/)**
 
-4. **[Heuristic Functions in Game AI](https://www.gamedeveloper.com/programming/heuristics-in-ai)**
+- **🔗 [Flask for Web App Development](https://flask.palletsprojects.com/)**
 
-5. **[Interactive Visualizations with Plotly](https://plotly.com/python/)**
+- **🔗 [Twilio API for SMS Alerts](https://www.twilio.com/)**
 
 ---

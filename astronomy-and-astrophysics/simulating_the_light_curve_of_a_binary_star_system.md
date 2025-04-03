@@ -1,4 +1,4 @@
-# 🌟 Stellar Dynamics: Simulating the Light Curve of a Binary Star System
+# 💃🌟 Cosmic Tango: Simulating the Light Curve of a Binary Star System
 
 ---
 

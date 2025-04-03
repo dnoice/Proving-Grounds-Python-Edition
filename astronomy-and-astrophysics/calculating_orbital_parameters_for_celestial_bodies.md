@@ -1,4 +1,4 @@
-# 🌌 Calculating Orbital Parameters for Celestial Bodies
+# 🌌 Orbital Mechanics: Calculating Orbital Parameters for Celestial Bodies
 
 ---
 

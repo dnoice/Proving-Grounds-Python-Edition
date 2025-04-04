@@ -1,0 +1,109 @@
+# Python Libraries Grouped and Categorized by Domain
+
+## Core Libraries (Frequently Used)
+NumPy
+SciPy
+SymPy
+matplotlib
+
+## Machine Learning and Data Science
+scikit-learn
+TensorFlow
+PyTorch
+Keras
+XGBoost
+LightGBM
+Pandas
+Plotly
+Seaborn
+Statsmodels
+
+## Cryptography and Cybersecurity
+PyCryptodome
+Cryptography
+Fernet
+hashlib
+PyNaCl
+paramiko
+Scapy
+
+## Numerical Analysis and Calculus
+mpmath
+pyomo
+
+## Geometry and Image Processing
+Pygame
+PyGEOS
+Shapely
+OpenCV
+Pillow
+scikit-image
+
+## Robotics and Automation
+PyBullet
+PyRobot
+rospy
+
+## Quantum Mechanics and Physics
+Qiskit
+Cirq
+PyQuil
+QuantumOptics
+Astropy
+PyBullet
+
+## Financial and Mathematical Modeling
+pyfolio
+QuantLib
+QuantPy
+cvxpy
+Optuna
+PuLP
+
+## Earth and Environmental Sciences
+Cartopy
+Geopandas
+PyGMT
+PyroSAR
+EarthPy
+pyproj
+Rasterio
+
+## Blockchain and Cryptocurrencies
+bitcoinlib
+web3
+
+## Simulation and Optimization
+OpenMDAO
+PySCF
+CoolProp
+Pyro
+Thermo
+Dask
+Ray
+Celery
+
+## Biology and Medicine
+Biopython
+Bioconda
+OpenMM
+PySCeS
+scikit-bio
+NeuroKit2
+PyMedTermino
+
+## Miscellaneous Libraries
+ASE
+ChemPy
+Open Babel
+RDKit
+NetworkX
+PyWavelets
+obspy
+LTSpice
+PySpice
+Scikit-RF
+OpenAI Gym
+PyDSTool
+PyFEM
+pyPSA

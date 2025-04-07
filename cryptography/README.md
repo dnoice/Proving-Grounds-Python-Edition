@@ -1,4 +1,4 @@
-# 🔐 Cryptography | Proving Grounds | Python Edition  
+# 🔐 Cryptography
 *Unlock the Secrets of Code & Security*
 
 ---

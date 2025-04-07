@@ -41,6 +41,7 @@
    - [Signal Processing](#signal-processing)
    - [Thermodynamics](#thermodynamics)
    - [Virtual and Augmented Reality](#virtual-and-augmented-reality)
+   - [Web Development](#web-debelpment)
 3. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)

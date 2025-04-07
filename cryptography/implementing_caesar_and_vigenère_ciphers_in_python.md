@@ -1,4 +1,4 @@
-# **CryptoQuest: Implementing Caesar and Vigenère Ciphers in Python**
+# **Secret Sauce: Implementing Caesar and Vigenère Ciphers in Python**
 
 ---
 

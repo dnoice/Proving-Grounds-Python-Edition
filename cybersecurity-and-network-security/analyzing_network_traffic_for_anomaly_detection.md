@@ -1,4 +1,4 @@
-# 🛠️ Analyzing Network Traffic for Anomaly Detection
+# 🛠️ The Detective: Analyzing Network Traffic for Anomaly Detection
 
 ## 📋 Overview
 This challenge focuses on analyzing network traffic to detect anomalies and potential security threats. You will use Python to implement statistical and machine learning techniques to identify unusual patterns in network data, which may indicate cyber attacks or network failures.

@@ -1,4 +1,4 @@
-# 🛡️ Cyber Security and Network Security | Proving Grounds | Python Edition  
+# 🛡️ Cyber Security and Network Security
 
 ---
 

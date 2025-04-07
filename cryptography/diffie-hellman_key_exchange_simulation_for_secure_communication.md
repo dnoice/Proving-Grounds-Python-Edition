@@ -138,5 +138,3 @@ Bring your simulation to life with visual aids and a detailed narrative that tie
 Simulating the Diffie-Hellman key exchange is more than a coding exercise—it’s a deep dive into the marriage of mathematics and modern security. As you craft your prototype, you’ll gain not only practical experience but also insights into enduring cryptographic methods and the innovations that continuously improve our digital safety. This challenge is your chance to explore the past, present, and future of secure communication. Happy coding, and may your cryptographic pathways lead you to ever-stronger digital fortresses!
 
 ---
-
-This enhanced problem statement is designed to be both engaging and thoughtful, encouraging you to not only implement a technical solution but also to critically consider the evolution and future of secure communications. Happy exploring!
